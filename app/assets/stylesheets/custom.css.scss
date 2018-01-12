@@ -5,9 +5,23 @@ $navbar-default-bg: #073b15;
 
 .center {
 	text-align: center;
+	padding-top: 130px;
 }
 
-#logo {
+.jumbotron {
+	background-image: asset-url('cover_image.jpg');
+	background-size: cover;
+	height: 800px;
+
+}
+
+.jumbotron {
+	margin-bottom: 30px;
+	letter-spacing:-1px;
+	font-weight: bold;
+}
+
+#logo:hover {
 	float: left;
 	font-size: 1.7em;
 	color: #fff;
@@ -19,6 +33,26 @@ $navbar-default-bg: #073b15;
 #logo {
 	color: #fff;
 	text-decoration: none;
+}
+
+.btn-xlarge {
+	background-color: #073b15;
+}
+
+.btn-xlarge {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/********** FOOTER ************/
+
+.pull-right {
+	text-align: right;
+}
+
+.foot-space {
+	padding-top:20px;
 }
 
 
